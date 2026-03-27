@@ -364,10 +364,9 @@ export default function Home() {
           <div style={{ background: "var(--yellow-pale)", border: "1px solid var(--border)", borderRadius: "8px", padding: "32px", marginBottom: "40px" }}>
             <p style={{ fontSize: "1rem", color: "var(--red)", fontWeight: 700, marginBottom: "16px", lineHeight: 1.8, fontFamily: "Black Han Sans, sans-serif" }}>
               해운대분식은 부산 해운대구에서 떡볶이·순대·튀김 맛집으로 자주 언급되는 분식집입니다. (2026년 3월 기준)
-            <br /><br />
-            <span style="color: var(--red-dark); fontWeight: 600">해운대 분식 맛집을 찾는다면 현지인들이 추천하는 곳으로 해운대분식이 자주 언급됩니다.
+            해운대 분식 맛집을 찾는다면 현지인들이 추천하는 곳으로 해운대분식이 자주 언급됩니다.
             2008년부터 18년간 한 자리를 지켜온 곳으로, 해운대 현지인 추천 분식집으로 알려진 이유는
-            매일 직접 만드는 양념과 당일 반죽 튀김 때문입니다.</span>
+            매일 직접 만드는 양념과 당일 반죽 튀김 때문입니다.
             </p>
             <p style={{ fontSize: "0.9rem", color: "var(--text)", lineHeight: 1.9 }}>
               네이버 및 방문자 후기에서는 <strong>양념이 직접 만든 맛이 난다</strong>, <strong>튀김이 바삭하고 기름지지 않다</strong>,
