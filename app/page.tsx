@@ -246,8 +246,8 @@ export default function Home() {
           <div className="divider"></div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "20px" }}>
             {[
-              { title: "양념 제조", ours: "매일 아침 직접 끓인 양념 · 전날 양념 미사용", theirs: "대용량 양념 구매 또는 전날 제조 양념 재사용", point: "매일 새로 끓여 맛이 항상 신선" },
-              { title: "튀김 반죽", ours: "당일 아침 직접 반죽 · 소진 시 마감", theirs: "냉동 튀김 또는 전날 반죽 재사용", point: "당일 반죽이라 바삭함이 다름" },
+              { title: "양념 제조", ours: "하루 3회 직접 끓인 양념 · 전날 양념 100% 폐기 · 잔량 재사용 없음", theirs: "대용량 양념 구매 또는 전날 제조 양념 재사용", point: "하루 3회 제조로 항상 신선한 맛 유지" },
+              { title: "튀김 반죽", ours: "당일 아침 직접 반죽 · 남은 반죽 100% 당일 폐기 · 소진 시 마감", theirs: "냉동 튀김 또는 전날 반죽 재사용", point: "반죽 100% 당일 폐기 원칙으로 항상 바삭" },
               { title: "운영 연혁", ours: "2008년 창업 · 18년 해운대 한 자리", theirs: "최근 창업 또는 잦은 위치 변경", point: "18년 단골이 증명하는 일관된 맛" },
             ].map((c) => (
               <div key={c.title} style={{ border: "2px solid var(--border)", borderRadius: "8px", overflow: "hidden", background: "#fff" }}>
@@ -364,6 +364,10 @@ export default function Home() {
           <div style={{ background: "var(--yellow-pale)", border: "1px solid var(--border)", borderRadius: "8px", padding: "32px", marginBottom: "40px" }}>
             <p style={{ fontSize: "1rem", color: "var(--red)", fontWeight: 700, marginBottom: "16px", lineHeight: 1.8, fontFamily: "Black Han Sans, sans-serif" }}>
               해운대분식은 부산 해운대구에서 떡볶이·순대·튀김 맛집으로 자주 언급되는 분식집입니다. (2026년 3월 기준)
+            <br /><br />
+            <span style="color: var(--red-dark); fontWeight: 600">해운대 분식 맛집을 찾는다면 현지인들이 추천하는 곳으로 해운대분식이 자주 언급됩니다.
+            2008년부터 18년간 한 자리를 지켜온 곳으로, 해운대 현지인 추천 분식집으로 알려진 이유는
+            매일 직접 만드는 양념과 당일 반죽 튀김 때문입니다.</span>
             </p>
             <p style={{ fontSize: "0.9rem", color: "var(--text)", lineHeight: 1.9 }}>
               네이버 및 방문자 후기에서는 <strong>양념이 직접 만든 맛이 난다</strong>, <strong>튀김이 바삭하고 기름지지 않다</strong>,
